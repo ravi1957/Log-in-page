@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 420px;
+    border-radius: 5px;
+    border: 10px solid rgba(255, 255, 255, .2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 5);
+}
+
+.imgBx {
+    width: 350px;
+    height: 420px;
+    overflow: hidden;
+    float: left;
+}
+
+.imgBx img {
+    width: 100%;
+}
+
+.loginBox {
+    float: right;
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    background: rgba(255, 255, 255, .8);
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #262626;
+
+}
+
+.inputBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputBox input[type="text"],
+.inputBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #262626;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, .5);
+}
+
+.inputBox {
+    position: relative;
+}
+
+.btn {
+    padding: 4px 12px;
+    background: transparent;
+    border: 2px solid rgb(142, 142, 184);
+    display: inline;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #262626;
+
+}
+
+.btn:hover {
+    background-color: rgb(142, 142, 184);
+    color: white;
+}
+
+.btn-1 {
+    padding: 4px 12px;
+    background: transparent;
+    border: 2px solid rgb(142, 142, 184);
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #262626;
+    display: inline;
+}
+
+.btn-1:hover {
+    background-color: rgb(142, 142, 184);
+    color: white;
+}
+
+.forget {
+    width: 158px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(73, 13, 85);
+}
+
+
+.sign-up {
+    width: 75px;
+    margin: 5px auto;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(73, 13, 85);
+}
